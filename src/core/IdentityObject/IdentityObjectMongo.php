@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace bgw\core\IdentityObject;
+namespace Bgw\core\IdentityObject;
 use Bgw\core\IdentityObject;
 
 /**

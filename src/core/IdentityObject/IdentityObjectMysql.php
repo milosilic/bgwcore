@@ -7,7 +7,7 @@ declare(strict_types = 1);
  * Time: 09.25
  */
 
-namespace bgw\core\IdentityObject;
+namespace Bgw\core\IdentityObject;
 
 
 use Bgw\core\IdentityObject;

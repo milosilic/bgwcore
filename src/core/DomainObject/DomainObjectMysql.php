@@ -6,7 +6,7 @@
  * Time: 08.38
  */
 
-namespace bgw\core\DomainObject;
+namespace Bgw\core\DomainObject;
 
 
 use Bgw\core\DomainObject;

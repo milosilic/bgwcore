@@ -6,7 +6,7 @@
  * Time: 16.53
  */
 
-namespace bgw\core\Mapper;
+namespace Bgw\core\Mapper;
 
 
 use Bgw\core\DomainObject;

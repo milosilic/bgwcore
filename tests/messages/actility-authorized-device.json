@@ -1,0 +1,57 @@
+{
+  "DevEUI_uplink": {
+    "Time": "2016-10-26T11:08:00.609+02:00",
+    "DevEUI": "1122334444332211",
+    "FPort": "2",
+    "FCntUp": "43749",
+    "ADRbit": "1",
+    "MType": "2",
+    "FCntDn": "784",
+    "payload_hex": "19371d0040ffffffcbc501041234",
+    "mic_hex": "975457b1",
+    "Lrcid": "00000127",
+    "LrrRSSI": "-45.000000",
+    "LrrSNR": "7.750000",
+    "SpFact": "7",
+    "SubBand": "G0",
+    "Channel": "LC6",
+    "DevLrrCnt": "3",
+    "Lrrid": "29000119",
+    "Late": "0",
+    "LrrLAT": "48.875259",
+    "LrrLON": "2.332962",
+    "Lrrs": {
+      "Lrr": [{
+        "Lrrid": "29000119",
+        "Chain": "0",
+        "LrrRSSI": "-45.000000",
+        "LrrSNR": "7.750000",
+        "LrrESP": "-45.673985"
+      },
+        {
+          "Lrrid": "080E0E94",
+          "Chain": "0",
+          "LrrRSSI": "-51.000000",
+          "LrrSNR": "6.750000",
+          "LrrESP": "-51.832691"
+        },
+        {
+          "Lrrid": "08060311",
+          "Chain": "0",
+          "LrrRSSI": "-59.000000",
+          "LrrSNR": "10.250000",
+          "LrrESP": "-59.391785"
+        }
+      ]
+    },
+    "CustomerID": "100000128",
+    "CustomerData": {
+      "alr": {
+        "pro": "LORA/Generic",
+        "ver": "1"
+      }
+    },
+    "ModelCfg": "0",
+    "DevAddr": "040874A4"
+  }
+}

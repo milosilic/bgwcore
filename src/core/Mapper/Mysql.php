@@ -7,7 +7,7 @@ declare(strict_types = 1);
  * Time: 10.46
  */
 
-namespace bgw\core\Mapper;
+namespace Bgw\core\Mapper;
 
 
 use Bgw\core\DomainObject;

@@ -8,7 +8,7 @@ declare(strict_types = 1);
  * Time: 18.22
  */
 
-namespace bgw\core\DbFactory;
+namespace Bgw\core\DbFactory;
 
 
 use Bgw\core\Conf;

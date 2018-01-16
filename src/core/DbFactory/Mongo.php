@@ -7,7 +7,7 @@ declare(strict_types = 1);
  * Time: 12.32
  */
 
-namespace bgw\core\DbFactory;
+namespace Bgw\core\DbFactory;
 
 use Bgw\core\Conf;
 use Bgw\core\DbFactory;

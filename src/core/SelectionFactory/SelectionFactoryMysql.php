@@ -6,7 +6,7 @@
  * Time: 12.44
  */
 
-namespace bgw\core\SelectionFactory;
+namespace Bgw\core\SelectionFactory;
 
 
 use Bgw\core\IdentityObject;

@@ -6,7 +6,7 @@
  * Time: 09.46
  */
 
-namespace bgw\core\DbFactory;
+namespace Bgw\core\DbFactory;
 
 
 use Bgw\core\DbFactory;

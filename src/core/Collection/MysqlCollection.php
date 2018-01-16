@@ -6,7 +6,7 @@
  * Time: 08.46
  */
 
-namespace bgw\core\Collection;
+namespace Bgw\core\Collection;
 
 
 use Bgw\core\Collection;

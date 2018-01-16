@@ -6,7 +6,7 @@
  * Time: 20.10
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 
 class AppException extends \Exception

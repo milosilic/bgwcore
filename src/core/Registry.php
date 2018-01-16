@@ -8,11 +8,11 @@ declare(strict_types = 1);
  * Time: 14.37
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
-use Bgw\core\DbFactory\Mongo;
-use Bgw\core\DbFactory\RabbitMq;
-use Bgw\core\Mapper\Mysql;
+use Bgw\Core\DbFactory\Mongo;
+use Bgw\Core\DbFactory\RabbitMq;
+use Bgw\Core\Mapper\Mysql;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 class Registry

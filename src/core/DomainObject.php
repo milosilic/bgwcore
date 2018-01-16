@@ -7,7 +7,7 @@ declare(strict_types = 1);
  * Time: 10.48
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 
 abstract class DomainObject

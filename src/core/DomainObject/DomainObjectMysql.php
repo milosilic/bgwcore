@@ -6,12 +6,12 @@
  * Time: 08.38
  */
 
-namespace Bgw\core\DomainObject;
+namespace Bgw\Core\DomainObject;
 
 
-use Bgw\core\DomainObject;
-use Bgw\core\Mapper;
-use Bgw\core\Registry;
+use Bgw\Core\DomainObject;
+use Bgw\Core\Mapper;
+use Bgw\Core\Registry;
 
 class DomainObjectMysql extends DomainObject
 {

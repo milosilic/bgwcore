@@ -6,7 +6,7 @@
  * Time: 20.19
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 
 abstract class DomainObjectFactory

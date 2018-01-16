@@ -6,15 +6,15 @@
  * Time: 16.53
  */
 
-namespace Bgw\core\Mapper;
+namespace Bgw\Core\Mapper;
 
 
-use Bgw\core\DomainObject;
-use Bgw\core\IdentityObject;
-use Bgw\core\IdentityObject\IdentityObjectMongo;
-use Bgw\core\Mapper;
-use Bgw\core\SelectionFactory\SelectionFactoryMongo;
-use Bgw\core\SelectionFactoryMysql;
+use Bgw\Core\DomainObject;
+use Bgw\Core\IdentityObject;
+use Bgw\Core\IdentityObject\IdentityObjectMongo;
+use Bgw\Core\Mapper;
+use Bgw\Core\SelectionFactory\SelectionFactoryMongo;
+use Bgw\Core\SelectionFactoryMysql;
 
 class Mongo extends Mapper
 {

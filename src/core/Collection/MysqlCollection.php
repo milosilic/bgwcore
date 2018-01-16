@@ -6,10 +6,10 @@
  * Time: 08.46
  */
 
-namespace Bgw\core\Collection;
+namespace Bgw\Core\Collection;
 
 
-use Bgw\core\Collection;
+use Bgw\Core\Collection;
 
 class MysqlCollection extends Collection
 {

@@ -7,14 +7,14 @@ declare(strict_types = 1);
  * Time: 10.46
  */
 
-namespace Bgw\core\Mapper;
+namespace Bgw\Core\Mapper;
 
 
-use Bgw\core\DomainObject;
-use Bgw\core\IdentityObject;
-use Bgw\core\IdentityObject\IdentityObjectMysql;
-use Bgw\core\Mapper;
-use Bgw\core\SelectionFactory\SelectionFactoryMysql;
+use Bgw\Core\DomainObject;
+use Bgw\Core\IdentityObject;
+use Bgw\Core\IdentityObject\IdentityObjectMysql;
+use Bgw\Core\Mapper;
+use Bgw\Core\SelectionFactory\SelectionFactoryMysql;
 
 class Mysql extends Mapper
 {

@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 abstract class DbFactory
 {

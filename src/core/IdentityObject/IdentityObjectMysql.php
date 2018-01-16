@@ -7,10 +7,10 @@ declare(strict_types = 1);
  * Time: 09.25
  */
 
-namespace Bgw\core\IdentityObject;
+namespace Bgw\Core\IdentityObject;
 
 
-use Bgw\core\IdentityObject;
+use Bgw\Core\IdentityObject;
 
 class IdentityObjectMysql extends IdentityObject
 {

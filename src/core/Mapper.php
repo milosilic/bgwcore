@@ -7,7 +7,7 @@ declare(strict_types = 1);
  * Time: 11.36
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 
 abstract class Mapper

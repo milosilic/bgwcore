@@ -6,12 +6,12 @@
  * Time: 13.08
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 
-use Bgw\core\Collection\MysqlCollection;
-use Bgw\core\DomainObjectFactory\DomainObjectFactoryMysql;
-use Bgw\core\SelectionFactory\SelectionFactoryMysql;
+use Bgw\Core\Collection\MysqlCollection;
+use Bgw\Core\DomainObjectFactory\DomainObjectFactoryMysql;
+use Bgw\Core\SelectionFactory\SelectionFactoryMysql;
 
 class PersistenceFactoryMysql extends PersistenceFactory
 {

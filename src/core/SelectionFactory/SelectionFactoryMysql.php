@@ -6,11 +6,11 @@
  * Time: 12.44
  */
 
-namespace Bgw\core\SelectionFactory;
+namespace Bgw\Core\SelectionFactory;
 
 
-use Bgw\core\IdentityObject;
-use Bgw\core\SelectionFactory;
+use Bgw\Core\IdentityObject;
+use Bgw\Core\SelectionFactory;
 
 class SelectionFactoryMysql extends SelectionFactory
 {

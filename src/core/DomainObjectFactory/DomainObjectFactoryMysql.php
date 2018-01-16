@@ -6,12 +6,12 @@
  * Time: 08.31
  */
 
-namespace Bgw\core\DomainObjectFactory;
+namespace Bgw\Core\DomainObjectFactory;
 
 
-use Bgw\core\DomainObject;
-use Bgw\core\DomainObject\DomainObjectMysql;
-use Bgw\core\DomainObjectFactory;
+use Bgw\Core\DomainObject;
+use Bgw\Core\DomainObject\DomainObjectMysql;
+use Bgw\Core\DomainObjectFactory;
 
 class DomainObjectFactoryMysql extends DomainObjectFactory
 {

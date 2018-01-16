@@ -8,7 +8,7 @@ declare(strict_types = 1);
  * Time: 18.30
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 class ObjectWatcher
 {

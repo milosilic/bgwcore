@@ -7,7 +7,7 @@ declare(strict_types = 1);
  * Time: 10.04
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 class Field
 {

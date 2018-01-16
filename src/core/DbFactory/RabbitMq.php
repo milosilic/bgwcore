@@ -8,11 +8,11 @@ declare(strict_types = 1);
  * Time: 18.22
  */
 
-namespace Bgw\core\DbFactory;
+namespace Bgw\Core\DbFactory;
 
 
-use Bgw\core\Conf;
-use Bgw\core\DbFactory;
+use Bgw\Core\Conf;
+use Bgw\Core\DbFactory;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 class RabbitMq extends DbFactory

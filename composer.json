@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bgw\\": "src"
+            "Bgw\\Core\\": "src/"
         }
     },
     "scripts": {

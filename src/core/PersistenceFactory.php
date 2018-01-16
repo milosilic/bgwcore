@@ -6,10 +6,10 @@
  * Time: 20.06
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 
-use Bgw\core\Mapper\Mysql;
+use Bgw\Core\Mapper\Mysql;
 
 abstract class PersistenceFactory
 {

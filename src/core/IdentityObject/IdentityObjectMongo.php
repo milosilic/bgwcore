@@ -1,8 +1,8 @@
 <?php
 declare(strict_types = 1);
 
-namespace Bgw\core\IdentityObject;
-use Bgw\core\IdentityObject;
+namespace Bgw\Core\IdentityObject;
+use Bgw\Core\IdentityObject;
 
 /**
  * Created by PhpStorm.

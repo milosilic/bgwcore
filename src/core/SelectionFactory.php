@@ -6,7 +6,7 @@
  * Time: 12.37
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 
 abstract class SelectionFactory

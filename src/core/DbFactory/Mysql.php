@@ -6,11 +6,11 @@
  * Time: 09.46
  */
 
-namespace Bgw\core\DbFactory;
+namespace Bgw\Core\DbFactory;
 
 
-use Bgw\core\DbFactory;
-use Bgw\core\Conf;
+use Bgw\Core\DbFactory;
+use Bgw\Core\Conf;
 
 
 class Mysql extends DbFactory

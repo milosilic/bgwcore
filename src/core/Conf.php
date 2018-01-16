@@ -6,7 +6,7 @@
  * Time: 14.35
  */
 
-namespace Bgw\core;
+namespace Bgw\Core;
 
 class Conf
 {

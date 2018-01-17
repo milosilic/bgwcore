@@ -13,6 +13,7 @@ namespace Bgw\Core;
 use Bgw\Core\DbFactory\Mongo;
 use Bgw\Core\DbFactory\RabbitMq;
 use Bgw\Core\Mapper\Mysql;
+use \Bgw\Core\DbFactory\Mysql as MysqlDbFactory;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 class Registry
@@ -125,7 +126,7 @@ class Registry
         $mysqlConfArray = $this->conf->get('mysql');
         $mysqlConf =  new Conf($mysqlConfArray[$connectionString]);
 
-        $mysqlConnection = new \bgw\core\DbFactory\Mysql($mysqlConf);
+        $mysqlConnection = new MysqlDbFactory($mysqlConf);
         $this->pdo = $mysqlConnection->getConnection();
 
         return $this->pdo;

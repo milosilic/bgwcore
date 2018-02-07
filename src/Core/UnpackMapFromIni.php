@@ -18,11 +18,6 @@ class UnpackMapFromIni implements IUnpack
      * */
     private $path;
 
-    public function __construct($path)
-    {
-       $this->path = $path;
-    }
-
     function getUnpackMap(): array
     {
         $options = parse_ini_file($this->path, true);

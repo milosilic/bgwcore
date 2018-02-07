@@ -18,11 +18,6 @@ class UnpackMapFromJson implements IUnpack
      * */
     private $path;
 
-    public function __construct($path)
-    {
-        $this->path = $path;
-    }
-
     function getUnpackMap(): array
     {
         return json_decode(file_get_contents($this->path), true);

@@ -13,6 +13,7 @@ namespace Bgw\Core;
 use Bgw\Core\DbFactory\Mongo;
 use Bgw\Core\DbFactory\RabbitMq;
 use Bgw\Core\Mapper\Mysql;
+use Bgw\Core\Mapper\Mongo as MongoMapper;
 use \Bgw\Core\DbFactory\Mysql as MysqlDbFactory;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 
@@ -167,6 +168,11 @@ class Registry
     public function getMysqlMapper(): Mapper
     {
         return new Mysql();
+    }
+
+    public function getMongoMapper(): Mapper
+    {
+        return new MongoMapper();
     }
 /*
     public function getSpaceMapper(): SpaceMapper

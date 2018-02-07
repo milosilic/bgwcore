@@ -27,4 +27,9 @@ class UnpackMapFromJson implements IUnpack
     {
         return json_decode(file_get_contents($this->path), true);
     }
+
+    function setPathToFile(string $path)
+    {
+       $this->path = $path;
+    }
 }

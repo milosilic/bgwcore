@@ -29,4 +29,8 @@ class UnpackMapFromIni implements IUnpack
         return $options;
     }
 
+    function setPathToFile(string $path)
+    {
+        $this->path = $path;
+    }
 }

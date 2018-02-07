@@ -12,4 +12,6 @@ namespace Bgw\Core;
 interface IUnpack
 {
     function getUnpackMap():array;
+
+    function setPathToFile(string $path);
 }

@@ -20,7 +20,7 @@ class UnpackMapFromArray implements IUnpack
 
     function getUnpackMap(): array
     {
-        return require_once ($this->path);
+        return require ($this->path);
     }
 
     function setPathToFile(string $path)

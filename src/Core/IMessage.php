@@ -17,8 +17,8 @@ interface IMessage
 
     public function setVersion(int $version): void;
 
-    public function getMessage(): array;
+    public function getMessage();
 
-    public function setMessage(array $version): void;
+    public function setMessage($version): void;
 
 }

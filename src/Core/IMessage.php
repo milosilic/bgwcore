@@ -12,4 +12,13 @@ namespace Bgw\Core;
 interface IMessage
 {
 
+
+    public function getVersion(): int;
+
+    public function setVersion(int $version): void;
+
+    public function getMessage(): array;
+
+    public function setMessage(array $version): void;
+
 }

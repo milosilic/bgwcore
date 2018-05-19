@@ -81,6 +81,7 @@ class Mysql extends Mapper
         $select .= $this->getSelection()->where($identityObject)? (" where " . $this->getSelection()->where($identityObject)): '';
         $select .= $identityObject->hasOrderBy()?(" ORDER BY " . join(',', $this->getSelection()->orderBy($identityObject))) : '';
         $select .= $identityObject->getLimit()? (" LIMIT " . $identityObject->getLimit()) : '';
+        $select .= $identityObject->hasOffset()?(" OFFSET "  . $this->getSelection()->offset($identityObject)) : '';
 //        var_dump($select);
         $connection = $this->getConnection();
         $statement = $connection->prepare($select);

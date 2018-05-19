@@ -182,4 +182,9 @@ class IdentityObject
         return !empty($this->_orderBy);
     }
 
+    // @ila : --||--
+    public function hasOffset()
+    {
+        return !empty($this->_offset);
+    }
 }

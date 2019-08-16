@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "php-amqplib/php-amqplib": "2.6.*",
+        "php-amqplib/php-amqplib": "^2.6.3",
         "mongodb/mongodb": "^1.1"
 
     },
